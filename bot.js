@@ -8,5 +8,7 @@ var bot = new TelegramBot(token, {polling: true});
 // Matches /send
 bot.onText(/\/send/, function (msg, match) {
     var fromId = msg.from.id;
+    var firstName = msg.from.first_name;
+    console.log(fromId+' '+firstName);
     bot.sendPhoto(fromId,"assets/calmarno.jpg");
 });
