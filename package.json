@@ -1,0 +1,14 @@
+{
+  "name": "calmarnobot",
+  "version": "0.0.1",
+  "description": "Calmarno Telegram Bot",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "*"
+  },
+  "engines": {
+    "node": "4.x"
+  }
+}
