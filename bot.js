@@ -14,5 +14,5 @@ bot.onText(/\/send/, function (msg, match) {
 
     console.log(fromId+' '+firstName+' '+chatId+' '+chatType);
 
-    bot.sendPhoto(chat.id, "assets/calmarno.jpg");
+    bot.sendPhoto(chatId, "assets/calmarno.jpg");
 });
